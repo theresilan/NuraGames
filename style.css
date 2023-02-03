@@ -93,7 +93,7 @@ a{text-decoration: none;}
 #button{
     position: absolute;
     margin-top: 29vw;
-    margin-left: 43vw;
+    margin-left: 45vw;
     width: 100vw;
     text-align: center;
     display: flex;
@@ -125,4 +125,12 @@ a{text-decoration: none;}
 #three p{
     width: 30vw;
     
+}
+
+#five div{
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin-bottom: 2vw;
 }

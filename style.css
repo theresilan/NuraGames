@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    overflow-x:hidden;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+a{text-decoration: none;}
+::-webkit-scrollbar {
+    display: none;
+}
+
+#one{
+    background-color: #F3F2CA;
+    overflow-y:hidden;
+}
+
+.y{
+    margin: 20px;
+    text-decoration: none;
+    position: absolute;
+    z-index: 2;
+    text-align: right;
+    width: 95vw;
+    overflow-y:hidden;
+    display: flex;
+    gap: 1px;
+    justify-content: space-between;
+}
+
+.z{
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+    margin-right: 23px;
+    overflow-y:hidden;
+    text-decoration: none;
+}
+
+#one p{
+    color: #CF241F;
+    text-align: right;
+}
+#two{
+    margin-top: -30vh;
+}
+
+/*
+#two{
+    z-index: 10;
+    margin: -23px 0 0 -10px;
+    height: 50vh;
+    width: 110vw;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(-1.5deg);
+    overflow-y:hidden;
+} */
+
+#yuh{
+    z-index: 11;
+}
+
+.ab{
+    color:  #CF241F;
+    border: 1.5px solid  #CF241F;
+    font-size: medium;
+    width: max-content;
+    height: max-content;
+    background-color: transparent;
+    transition: 0.2s;
+    padding: 10px 25px 10px 25px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+a{text-decoration: none;}
+
+.ab:hover{
+    transition: 0.2s;
+    background-color:  #CF241F;;
+    color:  white;
+    border: 1.5px solid #CF241F;
+    font-size: medium;
+    width: max-content;
+    height: max-content;
+    vertical-align: middle;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+}
+
+
+#button{
+    position: absolute;
+    margin-top: 70vh;
+    margin-left: 43vw;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    gap: 2vw;
+    justify-content: baseline;
+}
+#three{
+    color: white;
+    margin-top: -5vh;
+}
+
+#three div{
+    display: flex;
+    justify-content: space-between;
+    margin: 5vw;
+
+}
+
+.om{
+    align-items:flex-end;
+}
+
+#three p{
+    width: 30vw;
+    
+}

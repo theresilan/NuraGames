@@ -9,7 +9,42 @@
 </head>
 <body>
     <div id="one">
-        <h1 style="z-index: 1;position: absolute;text-align: right;width: 95vw;margin-top: 12vw;font-weight: 900;color: #CF241F;font-size: 3vw;">Selamat Datang di <br> NuraGames</h1>
+        <div class="sec judul" id="judul" style="z-index: 1;position: absolute;text-align: right;width: 95vw;margin-top: 4vw;font-weight: 900;color: #CF241F;font-size: 1.7vw;">
+            <br><br>
+            <br><br>
+            <h1 id="judulH1top"></h1>
+            <h1 id="judulH1bottom"></h1>
+        </div>
+        <script>
+            // TITLE TYPING ANIMATION
+            /* ********************************************************* */
+            var i = 0, j = 0, k = 0;
+            var txt1 = 'Selamat Datang di  ';
+            var txt2 = '\xa0\xa0' + '  NuraGames';
+
+            var speed = 100;
+
+            function typeWriter1() {
+                if (i < txt1.length) {
+                    document.getElementById("judulH1top").innerHTML += txt1.charAt(i);
+                    i++;
+                    setTimeout(typeWriter1, speed);
+                }
+            }
+            function typeWriter2(){
+                if (j < txt2.length) {
+                    document.getElementById("judulH1bottom").innerHTML += txt2.charAt(j);
+                    j++;
+                    setTimeout(typeWriter2, speed);
+                }
+            }
+            function typeWriter(){
+                typeWriter1();
+                setTimeout(typeWriter2, 2000);
+            }
+            typeWriter();
+        </script>
+        <!-- <h1 style="z-index: 1;position: absolute;text-align: right;width: 95vw;margin-top: 12vw;font-weight: 900;color: #CF241F;font-size: 3vw;">Selamat Datang di <br> NuraGames</h1> -->
         <div class="y">
             <img src="logo.png" alt="" width="6%">
             <div class="z">
@@ -23,20 +58,20 @@
     <div id="two" style="width: 100vw;text-align: center;">
         <p style="position: absolute;margin-top: 20vw;text-align: center;width: 100vw;font-size: 3vw;font-weight: 500;letter-spacing: 2px;color: #CF241F;">Menuju Generasi Emas <br> Indonesia 2045 melalui game</p>
         <div id="button">
-            <a href="game.html"><div class="ab">Coming Soon</div></a>
+            <a href="game.html"><div class="ab">Game Kami</div></a>
         </div>
         <img src="Untitled.png" alt="" style="z-index: 5;width:100%;">
         
     </div>
 
     <div id="three" style="background-color: #CF241F;">
-        <div>
+        <div id="yu">
             <h1>Tentang Kami</h1>
             <p style="text-align: justify;">NuraGames adalah perusahaan yang berfokus pada bidang game mengenai materi Pancasila dan kewarganegaraan. <br><br>
                 Visi kami adalah membangun SDM Indonesia dalam rangka menuju generasi emas Indonesia 2045 melalui game.
             </p>
         </div>
-        <div class="om">
+        <div id="om">
             <p style="text-align: justify;">NuraGames adalah tempat yang cocok untuk belajar dan mencari pengalaman  dalam bidang industri game. <br><br>
                  Kami juga menjadi wadah bagi orang-orang yang ingin berkontribusi melalui bidang teknologi untuk Indonesia Emas 2045 .</p>
             <h1>Bekerja dengan Kami</h1>

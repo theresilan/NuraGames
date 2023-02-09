@@ -93,7 +93,7 @@ a{text-decoration: none;}
 #button{
     position: absolute;
     margin-top: 29vw;
-    margin-left: 45vw;
+    margin-left: 43vw;
     width: 100vw;
     text-align: center;
     display: flex;
@@ -133,4 +133,62 @@ a{text-decoration: none;}
     justify-content: center;
     gap: 3vw;
     margin-bottom: 2vw;
+}
+
+#nothree{
+    width: 100vw;
+    text-align: center;
+    background-color: #ffffff;
+    color:#CF241F;
+    padding: 10px;
+}
+
+.yeee{
+    display: flex;
+    gap: 3vw;
+}
+
+.yeee div{
+    margin: 4vw;
+    width: 33vw;
+}
+
+#buttonn{
+    position: absolute;
+
+    margin-left: 43vw;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    gap: 2vw;
+    justify-content: baseline;
+}
+
+.ba{
+    color:  #000000;
+    border: 1.5px solid  #000000;
+    font-size: medium;
+    width: max-content;
+    height: max-content;
+    background-color: transparent;
+    transition: 0.2s;
+    padding: 10px 25px 10px 25px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+a{text-decoration: none;}
+
+.ba:hover{
+    transition: 0.2s;
+    background-color:  #000000;;
+    color:  white;
+    border: 1.5px solid #000000;
+    font-size: medium;
+    width: max-content;
+    height: max-content;
+    vertical-align: middle;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
 }
